@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import NotFoundPage from '../components/NotFoundPage'
 import HomePage from '../components/HomePage'
 import Register from '../components/Register'
