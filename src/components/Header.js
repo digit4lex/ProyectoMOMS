@@ -1,39 +1,59 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import logo from '../image.png';
+import React, { Component } from 'react';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBContainer,
+MDBHamburgerToggler } from 'mdbreact';
+import logo from '../image.png'
 import '../styles/Header.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
+class Header extends Component {
+state = {
+  collapse1: false,
+  collapseID: ''
+}
 
-/*  <NavLink to="/" exact={true} activeclassName="is-active">Home </NavLink>
- <br></br>
- <NavLink to="/register" activeclassName="is-active">Register </NavLink> */
+toggleCollapse = collapseID => () => {
+  this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseID ? collapseID : '') }));
+}
 
+toggleSingleCollapse = collapseId => {
+  this.setState({
+    ...this.state,
+    [collapseId]: !this.state[collapseId]
+  });
+}
 
-const Header = () => {
-    return (
-        <header>
+render() {
+  return (
+    <MDBContainer >
+      <MDBNavbar className="navbar" style={{ marginTop: '0px' }} light>
+        <MDBContainer  >
+        <MDBHamburgerToggler color="black" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <MDBNavbarBrand>
+            <img src={logo}></img>
+          </MDBNavbarBrand>
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+          <FontAwesomeIcon className="icon" icon={faUser} size="2x"/>
 
-            <img src={logo} className="" alt="logo" ></img>
-
-            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                <NavLink to="/" className="nav-item nav-link" exact={true} >Inicio </NavLink>
-                <NavLink to="/register" className="nav-item nav-link" exact={true} >Registro </NavLink>
-                <NavLink to="/about" className="nav-item nav-link" exact={true} >Sobre nosotros </NavLink>
-                <NavLink to="/contact" className="nav-item nav-link" exact={true} >Contacto </NavLink>
-                </div>
-            </div>
-
-            </nav>
-
-        </header>
-    )
+            <MDBCollapse isOpen={this.state.collapse1} navbar>
+              <MDBNavbarNav left>
+                <MDBNavItem active>
+                  <MDBNavLink to="/">Home</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="/register">Registro</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="/about">Sobre Nosotros</MDBNavLink>
+                </MDBNavItem>
+              </MDBNavbarNav>
+            </MDBCollapse>
+        </MDBContainer>
+      </MDBNavbar>
+    </MDBContainer>
+    );
+  }
 }
 
 export default Header;
