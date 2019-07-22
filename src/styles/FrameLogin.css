@@ -1,0 +1,31 @@
+
+.frame{
+    width: 310px;
+    height: 159px;
+    background-color:#FAFAFA;
+    border-radius: 5px;
+    margin-left: 32px;   
+    font-family: 'Playfair Display', serif;
+}
+.button {
+    background-color: #F1717F;
+    border-radius: 5px;
+    font-size: 15px;
+    width:270px;
+    height:43px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.titulos{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
+    margin-left: 20px;
+    margin-top: 28px;
+    width: 269px;
+    height: 79.5px;
+    padding: 12px;
+    color: #535151;
+    align-items: center;
+}
