@@ -1,11 +1,12 @@
 import React from 'react'
-/* import { NavLink } from 'react-router-dom' */
+import { NavLink } from 'react-router-dom'
 import logo from '../image.png';
+import '../styles/Header.css'
 
 
-/*  <NavLink to="/" exact={true} activeClassName="is-active">Home </NavLink>
+/*  <NavLink to="/" exact={true} activeclassName="is-active">Home </NavLink>
  <br></br>
- <NavLink to="/register" activeClassName="is-active">Register </NavLink> */
+ <NavLink to="/register" activeclassName="is-active">Register </NavLink> */
 
 
 const Header = () => {
@@ -14,23 +15,21 @@ const Header = () => {
 
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
-                <img src={logo} alt="logo" width="10%"></img>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/register">Registro</a>
-                        </li>
-                    </ul>
-                    <span className="navbar-text">
-                        Navbar text with an inline element
-                    </span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+
+            <img src={logo} className="" alt="logo" ></img>
+
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav">
+                <NavLink to="/" className="nav-item nav-link" exact={true} >Inicio </NavLink>
+                <NavLink to="/register" className="nav-item nav-link" exact={true} >Registro </NavLink>
+                <NavLink to="/about" className="nav-item nav-link" exact={true} >Sobre nosotros </NavLink>
+                <NavLink to="/contact" className="nav-item nav-link" exact={true} >Contacto </NavLink>
                 </div>
+            </div>
+
             </nav>
 
         </header>
