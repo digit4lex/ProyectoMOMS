@@ -1,6 +1,7 @@
 import React from 'react'
 import FrameLogin from './FrameLogin'
 import './../styles/HomePage.css'
+import { MDBContainer } from 'mdbreact'
 ///import HomeLogin from './HomeLogin'
 
 const HomePage = () => {
@@ -11,8 +12,6 @@ const HomePage = () => {
             lineHeight: "22px",
             alignItems: "center",
             textAlign: "center",
-            marginLeft: "40px",
-            width:"302px",
             color: "#FFFFFF",
             padding:"10px"
         },
@@ -23,19 +22,19 @@ const HomePage = () => {
             alignItems: "center",
             textAlign: "center",
             color: "#FFFFFF",
-            width:"310px",
-            marginLeft: "33px"
+            padding:"10px"
         }
     }
     return (
     <div>
-        <div>
-            <h3 style={style.h3}> Más de mil mujeres y compañias nos avalan </h3>
+        <MDBContainer>
+            <br/>
+            <h3 style={style.h3}> Más de mil mujeres y compañías nos avalan </h3>
             <h1 style={style.h2}>Conectamos el talento femenino con las mejores empresas que tienen ofertas flexibles para ellas</h1>
-        </div>
-        <div className="sectionLogin">   
+        </MDBContainer>
+        <MDBContainer className="sectionLogin">   
             <FrameLogin/>
-        </div>
+        </MDBContainer>
     </div>
     )
 }
