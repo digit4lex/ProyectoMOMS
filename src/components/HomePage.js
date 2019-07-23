@@ -13,7 +13,7 @@ const HomePage = () => {
             alignItems: "center",
             textAlign: "center",
             color: "#FFFFFF",
-            padding:"10px"
+            
         },
         h2: {
             fontFamily: "Playfair Display",
@@ -26,6 +26,7 @@ const HomePage = () => {
         }
     }
     return (
+
     <div>
         <MDBContainer>
             <br/>
