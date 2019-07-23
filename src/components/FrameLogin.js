@@ -1,7 +1,7 @@
 import React, { Component }  from 'react';
 import Button from './Button';
 import './../styles/FrameLogin.css';
-
+import { Link } from 'react-router-dom'
 
 class FrameLogin extends Component {
 
@@ -10,7 +10,7 @@ class FrameLogin extends Component {
       <div>
         <div className="frame">
           <h3 className="titulos">Soy una mujer en busca de mi próxima oportunidad laboral</h3>
-          <Button title="Ingresa tus datos"/>
+          <Link to="/register"><Button title="Ingresa tus datos"/></Link>
         </div>
         <div className="frame">
           <h3 className="titulos">Estoy reclutando para un puesto o proyecto en nombre de una empresa</h3>

@@ -3,9 +3,6 @@ import React from 'react'
 import HomeLogin from './HomeLogin'
 
 
-
-
-
 const HomePage = () => {
     let style={
         h3: {
@@ -57,6 +54,11 @@ const HomePage = () => {
         <h1 style={style.h2}>Conectamos el talento femenino con las mejores empresas que tienen ofertas flexibles para ellas</h1>
         <HomeLogin/>
       
+
+           
+      
+      
+
     </div>
     )
 }
