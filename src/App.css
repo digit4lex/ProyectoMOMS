@@ -1,6 +1,12 @@
 html, body {
-  background-image: url('./assets/Group.jpg');
-  background-size: 100vh;
+
+  background-image: 
+    linear-gradient(
+      rgba(53, 94, 126, 0.7),
+      rgba(53, 94, 126, 0.7)
+    ),
+  url(https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  width: 100%;
   background-repeat: no-repeat;
 }
 
