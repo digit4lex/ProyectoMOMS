@@ -1,12 +1,13 @@
 .logo {
     width: 45%;
-    margin-left: 28%;
+    margin-left: 20%;
 }
 
 .navbar {
     box-shadow: none; 
     font-weight: 300;
 }
+
 .material-icons {
     font-size: 36px;
     color: white;
