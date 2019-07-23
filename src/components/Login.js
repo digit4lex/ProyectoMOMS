@@ -1,10 +1,12 @@
 import React from 'react';
 import InputBase from './InputBase';
 import Button from './Button';
+import './../styles/Login.css'
 
 const Login = () => {
     return (
     <div>
+         
         <div className="login"> 
        <InputBase Name="Ingresa tu correo"/>
        <InputBase Name="Ingresa tu contraseña"/>
