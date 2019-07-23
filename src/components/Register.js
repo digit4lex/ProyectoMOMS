@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn} from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol} from 'mdbreact';
 import '../styles/Register.css'
 import Button from "./Button";
 

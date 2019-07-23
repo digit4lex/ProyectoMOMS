@@ -3,6 +3,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCol
 MDBHamburgerToggler } from 'mdbreact';
 import { NavLink } from 'react-router-dom'
 import logo from '../logo.png'
+import icon from '../assets/icon.png'
 import '../styles/Header.css'
 
 class Header extends Component {
@@ -32,22 +33,22 @@ render() {
             <img className="logo" src={logo} alt="logo"></img>
 
           <MDBNavbarBrand>
-            <NavLink to="/login"><i to="/login" className="material-icons">person_outline</i></NavLink>
+            <NavLink to="/login"><img src={icon} alt="icon" className="icon" width="36px"></img></NavLink>
           </MDBNavbarBrand>
 
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem active>
-                  <MDBNavLink to="/">Home</MDBNavLink>
+                  <MDBNavLink style={{ color:"white" }} to="/">Home</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem >
+                  <MDBNavLink style={{ color:"white" }} className="links"  to="/register">Registro</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="/register">Registro</MDBNavLink>
+                  <MDBNavLink style={{ color:"white" }} to="/about">Sobre Nosotros</MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="/about">Sobre Nosotros</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="/login">Login</MDBNavLink>
+                <MDBNavItem >
+                  <MDBNavLink style={{ color:"white" }} to="/login">Login</MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>

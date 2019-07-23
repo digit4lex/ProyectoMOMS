@@ -8,14 +8,7 @@
     border-bottom: 0.1px solid #535151;
 }
 
- .btn-continue {
-    background: #F1717F;
-    color:red;
-    border-radius: 5px;
-}
-
-#hola {
-    background-image: none;
+body, html {
     background-color: white;
 }
 

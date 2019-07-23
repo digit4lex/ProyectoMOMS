@@ -1,12 +1,27 @@
+a.nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.35s;
+}
+
 .logo {
     width: 81px;;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .navbar {
     box-shadow: none; 
     font-weight: 300;
 }
+
+@media (min-width: 900px) {
+    .navbar {
+      background-color: #355E7E;
+    }
+    .logo {
+        margin-left: 5%
+    }
+  }
+
 
 .material-icons {
     font-size: 36px;
