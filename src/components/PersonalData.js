@@ -1,5 +1,6 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
+import PersonalData from './PersonalData'
 
 const Register = () => {
   return (
@@ -7,8 +8,15 @@ const Register = () => {
       <MDBRow>
         <MDBCol md="6">
           <form>
-            <br/>
-            <p className="h4 text-center mb-4">Registrate y te contactaremos brevemente</p>
+            <p className="h4 text-center mb-4">Registrate</p>
+            <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
+              Teléfono de Contacto
+            </label>
+            <input
+              type="text"
+              id="defaultFormRegisterNameEx"
+              className="form-control"
+            />
             <br />
             <label htmlFor="defaultFormRegisterEmailEx" className="grey-text">
               Correo electrónico
@@ -30,29 +38,9 @@ const Register = () => {
               id="defaultFormRegisterPasswordEx"
               className="form-control"
             />
-            <br/>
-            <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
-              Nombre y Apellido
-            </label>
-            <input
-              type="text"
-              id="defaultFormRegisterNameEx"
-              className="form-control"
-            />
-            <br/>
-            <label htmlFor="defaultFormRegisterPhoneEx" className="grey-text">
-              Teléfono móvil
-            </label>
-            <input
-              type="number"
-              id="defaultFormRegisterPhoneEx"
-              className="form-control"
-            />
-            <br/>
-            <MDBInput label="Filled-in unchecked" type="checkbox" id="checkbox1" />
             <div className="text-center mt-4">
-              <MDBBtn color="unique" type="submit">
-                Registrar
+              <MDBBtn color="unique" type="submit" onClick={PersonalData}>
+                Guardar y continuar
               </MDBBtn>
             </div>
           </form>
