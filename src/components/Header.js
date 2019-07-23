@@ -3,6 +3,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCol
 MDBHamburgerToggler } from 'mdbreact';
 import logo from '../image.png'
 import '../styles/Header.css'
+// import icons from 'material-design-icons'
 
 class Header extends Component {
 state = {
@@ -31,7 +32,7 @@ render() {
           <MDBNavbarBrand>
             <img src={logo}></img>
           </MDBNavbarBrand>
-
+          <i className="material-icons">person_outline</i>
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem active>
