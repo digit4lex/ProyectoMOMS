@@ -31,7 +31,7 @@ render() {
           <MDBNavbarBrand>
             <img className="logo" src={logo} alt="logo"></img>
           </MDBNavbarBrand>
-
+          <i class="material-icons">person_outline</i>
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem active>
