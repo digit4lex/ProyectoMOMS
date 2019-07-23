@@ -1,8 +1,13 @@
 img {
     width: 40%;
-    margin-left: 24%;
+    margin-left: 25%;
 }
 
-.icon {
-    margin-left: -20%
+.navbar {
+    box-shadow: none; 
+    font-weight: 300;
+}
+.material-icons {
+    font-size: 36px;
+    color: white;
 }

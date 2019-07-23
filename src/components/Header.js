@@ -3,7 +3,6 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCol
 MDBHamburgerToggler } from 'mdbreact';
 import logo from '../image.png'
 import '../styles/Header.css'
-// import icons from 'material-design-icons'
 
 class Header extends Component {
 state = {
@@ -25,14 +24,14 @@ toggleSingleCollapse = collapseId => {
 render() {
   return (
     <MDBContainer >
-      <MDBNavbar className="navbar" style={{ marginTop: '0px' }} light>
+      <MDBNavbar className="navbar" id="navbarsito" style={{ boxShadow: 'none' }} light>
         <MDBContainer  >
         <MDBHamburgerToggler color="black" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
 
           <MDBNavbarBrand>
-            <img src={logo}></img>
+            <img src={logo} alt="logo"></img>
           </MDBNavbarBrand>
-          <i className="material-icons">person_outline</i>
+          <i class="material-icons">person_outline</i>
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem active>

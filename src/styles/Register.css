@@ -1,0 +1,19 @@
+
+.text-center-title{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.1px solid #535151;
+    
+}
+
+.text-center {
+    font-family: Playfair Display;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+}
