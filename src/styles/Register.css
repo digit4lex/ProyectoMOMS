@@ -9,6 +9,11 @@
     
 }
 
+body, html {
+    background-image: none;
+    background-color: white;
+}
+
 .text-center {
     font-family: Playfair Display;
     font-size: 26px;

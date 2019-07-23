@@ -1,3 +1,9 @@
 .sectionLogin {
     margin-top: 225px;
 }
+
+.HomePage {
+    background-image: url(../assets/Group.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+  }
