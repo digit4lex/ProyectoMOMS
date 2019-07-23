@@ -5,7 +5,8 @@ import './../styles/HomePage.css'
 const HomePage = () => {
     return (
     <div>
-       <p> Hola esta es la página de inicio </p> 
+       <h3>Más de mil mujeres y compañias nos avalan</h3> 
+       <h1>Conectamos el talento femenino con las mejores empresas que tienen ofertas flexibles para ellas</h1>
         {/* <HomeLogin/> */}
         {/* <Login/> */}
         <div className="sectionLogin">   
