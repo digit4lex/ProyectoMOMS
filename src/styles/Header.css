@@ -2,3 +2,8 @@ img {
     width: 40%;
     margin-left: 25%;
 }
+
+.navbar {
+    box-shadow: none; 
+    font-weight: 300;
+}

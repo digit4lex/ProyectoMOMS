@@ -24,7 +24,7 @@ toggleSingleCollapse = collapseId => {
 render() {
   return (
     <MDBContainer >
-      <MDBNavbar className="navbar" id="navbarsito" style={{ marginTop: '0px' }} light>
+      <MDBNavbar className="navbar" id="navbarsito" style={{ boxShadow: 'none' }} light>
         <MDBContainer  >
         <MDBHamburgerToggler color="black" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
 
