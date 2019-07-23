@@ -34,8 +34,6 @@ render() {
             <img src={logo}></img>
           </MDBNavbarBrand>
 
-          <FontAwesomeIcon className="icon" icon={faUser} size="2x"/>
-
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem active>
