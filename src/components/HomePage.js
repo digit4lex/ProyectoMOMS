@@ -1,5 +1,6 @@
 import React from 'react'
 import FrameLogin from './FrameLogin'
+import './../styles/HomePage.css'
 ///import HomeLogin from './HomeLogin'
 
 const HomePage = () => {
