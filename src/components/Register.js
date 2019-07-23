@@ -1,10 +1,11 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn} from 'mdbreact';
 import '../styles/Register.css'
+import Button from "./Button";
 
 const Register = () => {
   return (
-    <MDBContainer>
+    <MDBContainer id="hola">
       <MDBRow>
         <MDBCol md="6">
           <form>
@@ -60,9 +61,7 @@ const Register = () => {
               className="form-control"
             />
             <div className="text-center mt-4">
-              <MDBBtn color="unique" type="submit">
-                Registrar
-              </MDBBtn>
+            <Button title="Continuar"/>
             </div>
           </form>
         </MDBCol>

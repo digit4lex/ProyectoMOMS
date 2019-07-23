@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBContainer,
 MDBHamburgerToggler } from 'mdbreact';
 import { NavLink } from 'react-router-dom'
-import logo from '../image.png'
+import logo from '../logo.png'
 import '../styles/Header.css'
 
 class Header extends Component {
@@ -27,12 +27,12 @@ render() {
     <MDBContainer >
       <MDBNavbar className="navbar" style={{ boxShadow: 'none' }} light>
         <MDBContainer>
-        <MDBHamburgerToggler color="black" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
+        <MDBHamburgerToggler color="white" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
 
             <img className="logo" src={logo} alt="logo"></img>
 
           <MDBNavbarBrand>
-            <NavLink to="/login"><i to="/login" class="material-icons">person_outline</i></NavLink>
+            <NavLink to="/login"><i to="/login" className="material-icons">person_outline</i></NavLink>
           </MDBNavbarBrand>
 
             <MDBCollapse isOpen={this.state.collapse1} navbar>

@@ -13,7 +13,8 @@ const HomePage = () => {
             textAlign: "center",
             marginLeft: "40px",
             width:"302px",
-            color: "#FFFFFF"
+            color: "#FFFFFF",
+            padding:"10px"
         },
         h2: {
             fontFamily: "Playfair Display",

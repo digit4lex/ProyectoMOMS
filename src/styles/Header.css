@@ -1,5 +1,5 @@
 .logo {
-    width: 45%;
+    width: 81px;;
     margin-left: 20%;
 }
 
@@ -11,4 +11,5 @@
 .material-icons {
     font-size: 36px;
     color: white;
+    margin-left: 23px;
 }
