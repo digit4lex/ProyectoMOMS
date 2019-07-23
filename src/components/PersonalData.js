@@ -8,7 +8,9 @@ const Register = () => {
       <MDBRow>
         <MDBCol md="6">
           <form>
-            <p className="h4 text-center mb-4">Registrate</p>
+            <p className="h6 text-center mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
+            <br/>
+            <p className="h7 text-center mb-4">Sobre ti</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
               Teléfono de Contacto
             </label>
