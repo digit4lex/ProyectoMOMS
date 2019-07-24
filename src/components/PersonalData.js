@@ -4,14 +4,14 @@ import Button from './Button'
 
 
 const PersonalData = () => {
-  let style = { backgroundColor: '#FAFAFA' };
+  let style = { background: {backgroundColor: '#FAFAFA' }, hr: { marginTop: "4rem" }};
   return (
-    <MDBContainer className="my-page-text" style={style}>
-      <MDBRow style={style}>
-        <MDBCol style={style} md="6">
+    <MDBContainer className="my-page-text" style={style.background}>
+      <MDBRow style={style.background}>
+        <MDBCol style={style.background} md="6">
           <form>
             <p className="h6 text-center mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
-            <hr/>
+            <hr style={style.hr}/>
             <p className="h7 text-center mb-4">Sobre ti</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
               Biografía
