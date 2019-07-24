@@ -1,8 +1,8 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
-import PersonalData from './PersonalData'
 
-const Register = () => {
+
+const PersonalData = () => {
   return (
     <MDBContainer>
       <MDBRow>
@@ -12,34 +12,57 @@ const Register = () => {
             <br/>
             <p className="h7 text-center mb-4">Sobre ti</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
-              Teléfono de Contacto
+              Biografía
             </label>
-            <input
-              type="text"
-              id="defaultFormRegisterNameEx"
-              className="form-control"
-            />
+            <textarea id="defaultFormRegisterBiographyEx" className="form-control" rows= "5"/>
             <br />
-            <label htmlFor="defaultFormRegisterEmailEx" className="grey-text">
-              Correo electrónico
-            </label>
-            <input
-              type="email"
-              id="defaultFormRegisterEmailEx"
-              className="form-control"
-            />
+            <label htmlFor="defaultFormRegisterEmailEx" className="grey-text">¿Cuál es tu profesión?</label>
+            <select id="defaultFormRegisterProfesionEx" className="form-control">
+              <optgroup>
+                <option value="1">Arquitectura</option>
+                <option value="2">Ingeniería</option>
+                <option value="3">Sicología</option>
+                <option value="4">Derecho</option>
+                <option value="5">Administracion</option>
+              </optgroup>
+            </select>
             <br />           
-            <label
-              htmlFor="defaultFormRegisterPasswordEx"
-              className="grey-text"
-            >
-              Contraseña
-            </label>
-            <input
-              type="password"
-              id="defaultFormRegisterPasswordEx"
-              className="form-control"
-            />
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Tienes algun área de interés</label>
+            <select id="defaultFormRegisterProfesionEx" className="form-control">
+              <optgroup>
+                <option value="1">Informatíca</option>
+                <option value="2">Diseño y arte</option>
+                <option value="3">Tecnologa</option>
+                <option value="4">Salud</option>
+                <option value="5">Comunicación</option>
+              </optgroup>
+            </select>
+            <br />           
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Has hecho algún postgrado?</label> <br/>
+            <div >
+              <input type="radio" name="postgrado" value="si"/><label className="grey-text">Si</label>
+              <input type="radio" name="postgrado" value="no"/><label className="grey-text">No</label>
+             </div>
+             <br />           
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál?</label> <br/>
+              <input type="text" className="form-control"/>
+              <br />           
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál es tu nivel de ingles?</label>
+            <select id="defaultFormRegisterEnglishEx" className="form-control">
+              <optgroup>
+                <option value="1">Básico</option>
+                <option value="2">Intermedio</option>
+                <option value="3">Avanzado</option>
+                <option value="4">Nativo</option>
+              </optgroup>
+            </select>
+            <br />           
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Manejas algún otro idioma?</label> <br/>
+              <input type="text" className="form-control"/>
+             
+
+
+
             <div className="text-center mt-4">
               <MDBBtn color="unique" type="submit" onClick={PersonalData}>
                 Guardar y continuar
@@ -52,4 +75,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default PersonalData;

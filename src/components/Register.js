@@ -62,7 +62,7 @@ const Register = () => {
               className="form-control"
             />
             <div className="text-center mt-4">
-            <Button title="Continuar"/>
+            <Button title="Siguiente"  to="/sobreti"></Button>
             </div>
           </form>
         </MDBCol>
