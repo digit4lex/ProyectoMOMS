@@ -23,7 +23,8 @@ const Congrats = () => {
               alignItems: "center",
               textAlign: "center",
               color: "#535151",
-              padding:"40px 0px 20px 0px"
+              padding:"40px 0px 20px 0px",
+              fontWeight: "bold"
           },
           img:{
               height:"250px",
