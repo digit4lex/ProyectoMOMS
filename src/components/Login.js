@@ -24,16 +24,17 @@ const Login = () => {
                 <span aria-hidden="true">&times;</span>
             </button></Link>
          <form>
-            <p class="h7 text-center mb-4">Ingresa a tu cuenta</p>
-            <label htmlFor="defaultFormRegisterNameEx" className="grey-text">Ingresa tu correo</label>
+            <p className="h7 text-center mb-4">Ingresa a tu cuenta</p>
+            
+            <label htmlFor="defaultFormRegisterNameEx" className="grey-text ">Ingresa tu correo</label>
                 <input type="email" id="defaultLoginFormEmail" className="input mb-4" placeholder="E-mail"/>
                 <label htmlFor="defaultFormRegisterNameEx" className="grey-text">Ingresa contraseña</label>
                 <input type="password" id="defaultLoginFormPassword" className="input mb-4" placeholder="Password"/>
-                    <div class="d-flex justify-content-around">
+                    <div className="d-flex justify-content-around">
                     <div>
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember"/>
-                    <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                <div className="custom-control custom-checkbox">
+                    <input type="checkbox" className="custom-control-input" id="defaultLoginFormRemember"/>
+                    <label className="custom-control-label" htmlFor="defaultLoginFormRemember">Remember me</label>
                     </div>
                 </div>
             <div>
