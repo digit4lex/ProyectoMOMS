@@ -7,6 +7,7 @@ import PersonalData from '../components/PersonalData'
 import WorkProfile from '../components/WorkProfile'
 import Header from '../components/Header';
 import Login from '../components/Login';
+import Congrats from '../components/Congrats';
 
 
 const AppRouter = () => (
@@ -19,7 +20,12 @@ const AppRouter = () => (
         <Switch>
          <Route path="/" component={HomePage} exact={true}/>
          <Route path="/register" component={Register} exact={true}/>
+
+         <Route path="/sobreti" component={PersonalData} exact={true}/>
+         <Route path="/congrats" component={Congrats} exact={true}/>
+
          <Route path="/aboutme" component={PersonalData} exact={true}/>
+
          <Route path="/workprofile" component={WorkProfile} exact={true}/>
          <Route path="/login" component={Login} exact={true}/>
          <Route component={NotFoundPage}/>
