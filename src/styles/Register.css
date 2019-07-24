@@ -1,10 +1,11 @@
-
 .text-center-title{
     font-family: Montserrat;
     font-size: 18px;
     line-height: 22px;
     align-items: center;
     text-align: center;
+    padding: 4% 5% 15% 3%;
+
 }
 
 .my-page-text {
@@ -31,4 +32,5 @@
     /* identical to box height */
     align-items: center;
     text-align: center;
+    padding: 4% 5% 15% 3%;
 }
