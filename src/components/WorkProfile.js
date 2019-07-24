@@ -1,17 +1,18 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Button from './Button'
+import '../styles/Register.css'
 
 
 const WorkProfile = () => {
-    let style = { background: {backgroundColor: '#FAFAFA'}, hr: { marginTop: "10rem" } };
+    let style = { background: {backgroundColor: '#FAFAFA'} };
   return (
     <MDBContainer className="my-page-text" style={style}>
       <MDBRow style={style.background}>
         <MDBCol style={style.background} md="6">
           <form>
             <p className="h6 text-center mb-4">Queremos conocer tu experiencia y las habilidades que has adquirido trabajando.</p>
-            <hr style={style.hr}/>
+            <hr />
             <p className="h7 text-center mb-4">Perfil laboral</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
                 Agrega tu experiencia laboral
@@ -64,7 +65,7 @@ const WorkProfile = () => {
 
 
             <div className="text-center mt-4">
-            <Button title="Siguiente"  to="/homepage"></Button>
+            <Button title="Siguiente"  to="/congrats"></Button>
             </div>
           </form>
         </MDBCol>

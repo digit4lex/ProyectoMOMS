@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Register = () => {
 
-  let style = { background: {backgroundColor: '#FAFAFA' }, hr: { marginTop: "4rem" }};
+  let style = { background: {backgroundColor: '#FAFAFA' }};
 
   return (
     <MDBContainer className="my-page-text" style={style.background}>
@@ -13,7 +13,7 @@ const Register = () => {
         <MDBCol style={style.background} md="6">
           <form>
             <p className="h6 text-center-title mb-4">Si eres mamá profesional y buscas trabajo flexible, ¡no te lo pierdas! Inscríbete aquí.</p>
-            <hr style={style.hr} />
+            <hr  />
             <p className="h7 text-center mb-4">Datos Personales</p>
 
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
