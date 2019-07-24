@@ -15,6 +15,9 @@ const Login = () => {
             fontFamily: "Montserrat",
             fontSize: "16px",
             marginTop: "-10rem"
+        },
+        button: {
+            marginTop: "15%"
         }
     }
     return (
@@ -29,7 +32,7 @@ const Login = () => {
                     <h2 style={style.h2}>Ingresa a tu cuenta</h2>
                     <InputBase style={{ textAlign: "left" }} Name="Ingresa tu correo" />
                     <InputBase Name="Ingresa tu contraseña" />
-                    <Button title="Inicia Sesión" />
+                    <Button style={style.button} title="Inicia Sesión" />
                 </div>
                 <br/>
                 <div className="modal-footer flex-center">
