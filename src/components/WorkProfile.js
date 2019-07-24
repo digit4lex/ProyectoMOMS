@@ -16,11 +16,11 @@ const WorkProfile = () => {
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
                 Agrega tu experiencia laboral
             </label>
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readOnly/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readOnly/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readOnly/>
             <br/>
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Años de experiencia laboral</label>
             <input type="text" className="form-control"/>

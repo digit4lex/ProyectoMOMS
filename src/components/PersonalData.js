@@ -67,7 +67,7 @@ const PersonalData = () => {
 
 
             <div className="text-center mt-4">
-            <Button title="Siguiente"  to="/homepage"></Button>
+            <Button title="Siguiente"  to="/workprofile"></Button>
             </div>
           </form>
         </MDBCol>
