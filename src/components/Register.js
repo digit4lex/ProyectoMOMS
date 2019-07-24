@@ -4,8 +4,11 @@ import '../styles/Register.css'
 import Button from "./Button";
 
 const Register = () => {
+  
+  let style = { backgroundColor: '#FAFAFA' };
+
   return (
-    <MDBContainer id="hola">
+    <MDBContainer className="my-page-text" style={style}>
       <MDBRow>
         <MDBCol md="6">
           <form>

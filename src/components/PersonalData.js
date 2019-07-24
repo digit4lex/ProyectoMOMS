@@ -3,13 +3,15 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
 
 
 const PersonalData = () => {
+  let style = { backgroundColor: '#FAFAFA' };
   return (
-    <MDBContainer>
+    <MDBContainer className="my-page-text" style={style}>
       <MDBRow>
-        <MDBCol md="6">
+        <MDBCol className="my-page-text2" style={style} md="6">
           <form>
             <p className="h6 text-center mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
             <br/>
+            <hr/>
             <p className="h7 text-center mb-4">Sobre ti</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
               Biografía
@@ -41,6 +43,7 @@ const PersonalData = () => {
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Has hecho algún postgrado?</label> <br/>
             <div >
               <input type="radio" name="postgrado" value="si"/><label className="grey-text">Si</label>
+              <br/>
               <input type="radio" name="postgrado" value="no"/><label className="grey-text">No</label>
              </div>
              <br />           
