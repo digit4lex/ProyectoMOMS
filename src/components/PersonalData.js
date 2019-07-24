@@ -4,7 +4,7 @@ import Button from './Button'
 
 
 const PersonalData = () => {
-  let style = { background: {backgroundColor: '#FAFAFA' }, hr: { marginTop: "4rem" }};
+  let style = { background: {backgroundColor: '#FAFAFA' }, hr: { marginTop: "10rem" }};
   return (
     <MDBContainer className="my-page-text" style={style.background}>
       <MDBRow style={style.background}>
@@ -67,7 +67,7 @@ const PersonalData = () => {
 
 
             <div className="text-center mt-4">
-            <Button title="Siguiente"  to="/homepage"></Button>
+            <Button title="Siguiente"  to="/workprofile"></Button>
             </div>
           </form>
         </MDBCol>

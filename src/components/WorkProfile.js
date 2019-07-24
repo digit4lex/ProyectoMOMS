@@ -4,23 +4,23 @@ import Button from './Button'
 
 
 const WorkProfile = () => {
-    let style = { backgroundColor: '#FAFAFA' };
+    let style = { background: {backgroundColor: '#FAFAFA'}, hr: { marginTop: "10rem" } };
   return (
     <MDBContainer className="my-page-text" style={style}>
-      <MDBRow style={style}>
-        <MDBCol style={style} md="6">
+      <MDBRow style={style.background}>
+        <MDBCol style={style.background} md="6">
           <form>
             <p className="h6 text-center mb-4">Queremos conocer tu experiencia y las habilidades que has adquirido trabajando.</p>
-            <hr/>
+            <hr style={style.hr}/>
             <p className="h7 text-center mb-4">Perfil laboral</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
                 Agrega tu experiencia laboral
             </label>
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readOnly/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readOnly/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readOnly/>
             <br/>
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Años de experiencia laboral</label>
             <input type="text" className="form-control"/>
