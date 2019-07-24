@@ -1,26 +1,27 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Button from './Button'
+import '../styles/Register.css'
 
 
 const WorkProfile = () => {
-    let style = { backgroundColor: '#FAFAFA' };
+    let style = { background: {backgroundColor: '#FAFAFA'} };
   return (
     <MDBContainer className="my-page-text" style={style}>
-      <MDBRow style={style}>
-        <MDBCol style={style} md="6">
+      <MDBRow style={style.background}>
+        <MDBCol style={style.background} md="6">
           <form>
             <p className="h6 text-center mb-4">Queremos conocer tu experiencia y las habilidades que has adquirido trabajando.</p>
-            <hr/>
+            <hr />
             <p className="h7 text-center mb-4">Perfil laboral</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
                 Agrega tu experiencia laboral
             </label>
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readOnly/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readOnly/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readonly/>
+            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readOnly/>
             <br/>
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Años de experiencia laboral</label>
             <input type="text" className="form-control"/>
@@ -64,7 +65,7 @@ const WorkProfile = () => {
 
 
             <div className="text-center mt-4">
-            <Button title="Siguiente"  to="/homepage"></Button>
+            <Button title="Siguiente"  to="/congrats"></Button>
             </div>
           </form>
         </MDBCol>

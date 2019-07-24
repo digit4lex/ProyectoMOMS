@@ -13,16 +13,18 @@ const HomePage = () => {
             alignItems: "center",
             textAlign: "center",
             color: "#FFFFFF",
+            marginTop: "5rem"
             
         },
         h2: {
             fontFamily: "Playfair Display",
             fontSize: "26px",
             lineHeight: "35px",
+            fontWeight: "bold",
             alignItems: "center",
             textAlign: "center",
             color: "#FFFFFF",
-            padding:"10px"
+            padding:"40px"
         }
     }
     return (

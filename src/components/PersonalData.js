@@ -1,17 +1,18 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Button from './Button'
+import '../styles/Register.css'
 
 
 const PersonalData = () => {
-  let style = { background: {backgroundColor: '#FAFAFA' }, hr: { marginTop: "4rem" }};
+  let style = { background: {backgroundColor: '#FAFAFA' }};
   return (
     <MDBContainer className="my-page-text" style={style.background}>
       <MDBRow style={style.background}>
         <MDBCol style={style.background} md="6">
           <form>
             <p className="h6 text-center mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
-            <hr style={style.hr}/>
+            <hr />
             <p className="h7 text-center mb-4">Sobre ti</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
               Biografía
@@ -67,7 +68,7 @@ const PersonalData = () => {
 
 
             <div className="text-center mt-4">
-            <Button title="Siguiente"  to="/homepage"></Button>
+            <Button title="Siguiente"  to="/workprofile"></Button>
             </div>
           </form>
         </MDBCol>
