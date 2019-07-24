@@ -4,7 +4,9 @@
     background-color:#FAFAFA;
     border-radius: 5px;
     font-family: 'Playfair Display', serif;
-    margin-left: 4.8%
+    margin-left: 5.1%;
+    text-align: center;
+
 }
 
 .titulos{
@@ -16,4 +18,5 @@
     height: 79.5px;
     padding: 12px;
     color: #535151;
+    text-align: left;
 }
