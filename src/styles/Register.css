@@ -22,6 +22,7 @@
     /* Set the width to match that of the viewport. */
     width: 100vw;
     background-size: 100%; 
+    color:#535151
 }
 
 .text-center {
@@ -32,4 +33,5 @@
     align-items: center;
     text-align: center;
     padding: 4% 5% 15% 3%;
+    color:#535151
 }

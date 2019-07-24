@@ -1,5 +1,6 @@
 html, body {
     background-image: url(../assets/Group.jpg);
+    background-size: 100%;
   }
 
   @media (min-width: 900px) {
