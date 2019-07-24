@@ -5,44 +5,41 @@ import { Link } from 'react-router-dom'
 import './../styles/Login.css'
 
 const Login = () => {
-    let style={
+    let style = {
         h2: {
             fontFamily: "Playfair Display",
-            fontSize: "26px",
-            lineHeight: "22px",
-            width:"375px",
-            height: "35px",
-            color:"#535151",
-            textAlign:"center"
+            color: "#535151",
+            fontSize: "26px"
         },
-        h5:{
+        h5: {
             fontFamily: "Montserrat",
-            fontSize: "14px",
-            textAlign:"center"
+            fontSize: "16px",
+            marginTop: "-10rem"
         }
     }
     return (
-      <div className="modal-fluid modal-notify" role="document">
-        <div className="modal-content">
-            <div className="modal-header">   
-                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div className="modal-body" style={{textAlign:"center"}} >
-              <h2 style={style.h2}>Ingresa a tu cuenta</h2>
-              <InputBase Name="Ingresa tu correo"/>
-            <InputBase Name="Ingresa tu contraseña"/>
-            <Button title="Inicia Sesión"/>
-          </div>
-          <div className="modal-footer flex-center">
-         <h5 style={style.h5}>¿No tienes cuenta? <Link style={{color:"#F1717F"}}to="/register">Regístrate</Link></h5>
-          </div>
+        <div className="modal-fluid modal-notify" role="document">
+            <div className="modal-content">
+                <div className="modal-header" style={{ borderBottom: "0px solid #ff0000"  }}>
+                    <button type="button" style={{ fontSize: "2.5rem" }} to="/" className="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div className="modal-body" style={{ textAlign: "center" }} >
+                    <h2 style={style.h2}>Ingresa a tu cuenta</h2>
+                    <InputBase style={{ textAlign: "left" }} Name="Ingresa tu correo" />
+                    <InputBase Name="Ingresa tu contraseña" />
+                    <Button title="Inicia Sesión" />
+                </div>
+                <br/>
+                <div className="modal-footer flex-center">
+                    <h5 style={style.h5}>¿No tienes cuenta? <Link style={{ color: "#F1717F" }} to="/register">Regístrate</Link></h5>
+                </div>
+            </div>
+
         </div>
-        
-      </div>
-       
-    
+
+
     )
 }
 

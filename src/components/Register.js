@@ -1,10 +1,10 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol} from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import '../styles/Register.css'
 import Button from "./Button";
 
 const Register = () => {
-  
+
   let style = { backgroundColor: '#FAFAFA' };
 
   return (
@@ -13,7 +13,7 @@ const Register = () => {
         <MDBCol style={style} md="6">
           <form>
             <p className="h6 text-center-title mb-4">Si eres mamá profesional y buscas trabajo flexible, ¡no te lo pierdas! Inscríbete aquí.</p>
-            <hr/>
+            <hr />
             <p className="h7 text-center mb-4">Datos Personales</p>
 
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
@@ -32,7 +32,7 @@ const Register = () => {
               type="email"
               id="defaultFormRegisterEmailEx"
               className="form-control"
-            />      
+            />
             <label htmlFor="defaultFormRegisterPhoneEx" className="grey-text">
               Número de teléfono
             </label>
@@ -64,7 +64,7 @@ const Register = () => {
               className="form-control"
             />
             <div className="text-center mt-4">
-            <Button title="Siguiente"  to="/sobreti"></Button>
+              <Button title="Siguiente" to="/sobreti"></Button>
             </div>
           </form>
         </MDBCol>
