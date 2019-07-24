@@ -1,5 +1,6 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import Button from './Button'
 
 
 const PersonalData = () => {
@@ -7,10 +8,9 @@ const PersonalData = () => {
   return (
     <MDBContainer className="my-page-text" style={style}>
       <MDBRow>
-        <MDBCol className="my-page-text2" style={style} md="6">
+        <MDBCol  md="6">
           <form>
             <p className="h6 text-center mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
-            <br/>
             <hr/>
             <p className="h7 text-center mb-4">Sobre ti</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
@@ -67,9 +67,7 @@ const PersonalData = () => {
 
 
             <div className="text-center mt-4">
-              <MDBBtn color="unique" type="submit" onClick={PersonalData}>
-                Guardar y continuar
-              </MDBBtn>
+            <Button title="Siguiente"  to="/homepage"></Button>
             </div>
           </form>
         </MDBCol>

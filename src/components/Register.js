@@ -13,7 +13,6 @@ const Register = () => {
         <MDBCol md="6">
           <form>
             <p className="h6 text-center-title mb-4">Si eres mamá profesional y buscas trabajo flexible, ¡no te lo pierdas! Inscríbete aquí.</p>
-            <br/>
             <hr/>
             <p className="h7 text-center mb-4">Datos Personales</p>
 

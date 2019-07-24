@@ -1,27 +1,17 @@
-
 .text-center-title{
     font-family: Montserrat;
     font-size: 18px;
     line-height: 22px;
     align-items: center;
     text-align: center;
+    padding: 4% 5% 15% 3%;
+
 }
 
 .my-page-text {
-    /*height: inherit;*/
-    padding: 8% 5% 5% 3%;
-    /*top: 55px;*/
-
-    /*To support older browsers*/
     height: 100%;
-    width: 100%;
-
-    /* Set the height to match that of the viewport. */
-    height: 100vh;
-
-    /* Set the width to match that of the viewport. */
-    width: 100vw;
-    background-size: 100%; 
+    width: 100vh;
+    background-image: 'none';
 }
 
 .text-center {
@@ -31,4 +21,5 @@
     /* identical to box height */
     align-items: center;
     text-align: center;
+    padding: 4% 5% 15% 3%;
 }
