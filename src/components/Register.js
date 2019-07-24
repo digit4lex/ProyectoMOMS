@@ -10,7 +10,7 @@ const Register = () => {
   return (
     <MDBContainer className="my-page-text" style={style}>
       <MDBRow>
-        <MDBCol className="my-page-text2" style={style} md="6">
+        <MDBCol md="6">
           <form>
             <p className="h6 text-center-title mb-4">Si eres mamá profesional y buscas trabajo flexible, ¡no te lo pierdas! Inscríbete aquí.</p>
             <hr/>

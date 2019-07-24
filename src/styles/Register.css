@@ -9,20 +9,9 @@
 }
 
 .my-page-text {
-    /*height: inherit;*/
-    padding: 8% 5% 5% 3%;
-    /*top: 55px;*/
-
-    /*To support older browsers*/
     height: 100%;
-    width: 100%;
-
-    /* Set the height to match that of the viewport. */
-    height: 100vh;
-
-    /* Set the width to match that of the viewport. */
-    width: 100vw;
-    background-size: 100%; 
+    width: 100vh;
+    background-image: 'none';
 }
 
 .text-center {
