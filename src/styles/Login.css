@@ -1,5 +1,37 @@
-html, body {
-    background-color: white;
-    background-size: 100vh;
-    background-repeat: no-repeat;
-  }
+.modal-content {
+    padding: 2% 5% 5% 3%;
+    /*top: 55px;*/
+    /*To support older browsers*/
+    height: 100%;
+    width: 100%;
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+    background-size: 100%; 
+}
+
+.modal-header {
+  border-bottom: 0px solid #ff0000; 
+}
+
+.close {
+  font-size: 2.5rem;
+}
+
+.modal-body {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 5rem;
+  text-align: justify;
+  padding: 0rem;
+}
+
+.input {
+  margin-left: 0%;
+}
+
+
+.button {
+  margin-top: 15%
+}

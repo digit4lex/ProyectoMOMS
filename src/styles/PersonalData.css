@@ -1,3 +1,12 @@
+.text-center-title{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    padding: 4% 5% 15% 3%;
+}
+
 .my-page-text {
     /*height: inherit;*/
     padding: 8% 5% 5% 3%;
@@ -12,7 +21,15 @@
 
     /* Set the width to match that of the viewport. */
     width: 100vw;
-
-    background-repeat: no-repeat;
     background-size: 100%; 
+}
+
+.text-center {
+    font-family: Playfair Display;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    padding: 4% 5% 15% 3%;
 }
