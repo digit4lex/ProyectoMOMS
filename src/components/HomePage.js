@@ -13,7 +13,7 @@ const HomePage = () => {
             alignItems: "center",
             textAlign: "center",
             color: "#FFFFFF",
-            marginTop: "5rem"
+            marginTop: "3rem"
             
         },
         h2: {
