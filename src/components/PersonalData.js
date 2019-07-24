@@ -7,8 +7,8 @@ const PersonalData = () => {
   let style = { backgroundColor: '#FAFAFA' };
   return (
     <MDBContainer className="my-page-text" style={style}>
-      <MDBRow>
-        <MDBCol  md="6">
+      <MDBRow style={style}>
+        <MDBCol style={style} md="6">
           <form>
             <p className="h6 text-center mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
             <hr/>
