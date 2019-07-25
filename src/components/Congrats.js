@@ -23,16 +23,17 @@ const Congrats = () => {
               alignItems: "center",
               textAlign: "center",
               color: "#535151",
-              padding:"40px 0px 20px 0px",
               fontWeight: "bold"
           },
           img:{
               height:"250px",
               width:"100%",
-              padding:"10px 0px 20px 0px"
+              padding:"10px 22px 20px"
           },
-          button:{
-            marginLeft:"53px"
+          button: {
+            width:"60%",
+            marginLeft: "20%",
+            textAlign:"center"
           }
       }
     return (

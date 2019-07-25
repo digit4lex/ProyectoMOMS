@@ -11,7 +11,7 @@ const Register = () => {
     <MDBContainer className="my-page-text" style={style.background}>
       <MDBRow style={style.background}>
         <MDBCol style={style.background} md="6">
-          <form>
+          <form style={style.background}>
             <p className="h6 text-center-title mb-4">Si eres mamá profesional y buscas trabajo flexible, ¡no te lo pierdas! Inscríbete aquí.</p>
             <hr  />
             <p className="h7 text-center mb-4">Datos Personales</p>

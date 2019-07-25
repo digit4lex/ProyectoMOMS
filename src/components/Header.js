@@ -28,7 +28,7 @@ class Header extends Component {
   render() {
     return (
       <MDBContainer >
-        <MDBNavbar className="navbar" style={{ boxShadow: 'none' }} light>
+        <MDBNavbar className="navbar" style={{ boxShadow: 'none', padding:"0.5rem 0rem" }}  light>
           <MDBContainer>
             <MDBHamburgerToggler color="white" id="hamburger1" onClick={() => this.toggleSingleCollapse('collapse1')} />
 

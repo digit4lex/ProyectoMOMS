@@ -9,7 +9,7 @@ const PersonalData = () => {
     <MDBContainer className="my-page-text" style={style.background}>
       <MDBRow style={style.background}>
         <MDBCol  style={style.background} md="6">
-          <form>
+          <form style={style.background}>
             <p className="h6 text-center-title mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
             <hr />
             <p className="h7 text-center mb-4">Sobre ti</p>
