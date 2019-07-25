@@ -1,5 +1,7 @@
 import React, { Component }  from 'react';
 import { withRouter } from 'react-router-dom';
+import Button from './Button'
+import {Link} from 'react-router-dom'
 import './../styles/Oportunities.css'
 
 class Oportunities extends Component {
@@ -23,7 +25,7 @@ class Oportunities extends Component {
     </div>
     <p className="card-card">Requisitos</p>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button className="button" style={this.props.style} onClick={this.handleClick}>{this.props.title}</button>
+    <Link to="/AllOk"><Button style={this.props.style} title="Postular"/></Link>
   </div>
 </div>
     );

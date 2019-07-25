@@ -8,6 +8,7 @@ import logo from '../logo.png'
 import icon from '../assets/icon.png'
 import '../styles/Header.css'
 
+
 class Header extends Component {
   state = {
     collapse1: false,
