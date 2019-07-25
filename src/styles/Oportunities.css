@@ -1,0 +1,45 @@
+.dot {
+    height: 75px;
+    width: 75px;
+    background-color:#F1717F;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.card{
+    width: 313px;
+    height: 308px; 
+    /* padding: 36px 31px 29px 32px; */
+}
+.card-title{
+    font-size: 22px;
+    margin-bottom: 0;
+    width: 189px;
+}
+
+.card-text,.card-card{
+    font-size: 16px;
+    line-height: 20px;
+}
+.dot, .card-text,.card-title{
+    font-family: "Montserrat";
+}
+.card-text, .card-date{
+    color:#535151;
+}
+.card-card, .card-title{
+    color: #355E7E;
+}
+.card-date, .card-title{
+    margin: 0px 0px 0px 16px;
+}
+.porcent{
+    font-size: 24px;
+    margin: 7px 0px 0px 16px;
+}
+.match{
+    font-size: 14px;
+    margin: 0px 0px 0px 16px;
+}
+.porcent,.match{
+    color: white;
+}
