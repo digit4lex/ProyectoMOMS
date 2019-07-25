@@ -5,8 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 const Profile = () =>{
-    let style = { background: {backgroundColor: '#FAFAFA' },
-                    nombre:{fontFamily: 'Montserra',
+    let style = {       nombre:{fontFamily: 'Montserra',
                         fontStyle: 'normal',
                         fontWeight: 'normal',
                         fontSize: '22px',
@@ -14,9 +13,9 @@ const Profile = () =>{
                         textColor: '#355E7E'},
                     };
     return(
-        <MDBContainer className="my-page-text" style={style.background}>
-        <MDBRow style={style.background}>
-        <MDBCol  style={style.background} md="6">
+        <MDBContainer >
+        <MDBRow >
+        <MDBCol  md="6">
                         <h1 className="h7 text-center mb-4">Perfil</h1>
             <div>
                 <div>

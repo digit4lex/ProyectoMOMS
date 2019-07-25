@@ -41,7 +41,7 @@ const Login = () => {
                                 <a href="aaa" style={{ color: "#F1717F" }}>Olvidaste la contraseña?</a>
                             </div>
                         </div>
-                        <Button style={style.button} title="Inicia Sesión" />
+                        <Button style={style.button} to="/profile" title="Inicia Sesión" />
                         <hr style={style.hr} />
                         <h5 style={style.h5}>¿No tienes cuenta? <Link style={{ color: "#F1717F" }} to="/register">Regístrate</Link></h5>
                     </form>

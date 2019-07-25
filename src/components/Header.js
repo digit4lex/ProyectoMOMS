@@ -7,6 +7,10 @@ import { NavLink } from 'react-router-dom'
 import logo from '../logo.png'
 import icon from '../assets/icon.png'
 import '../styles/Header.css'
+<<<<<<< HEAD
+=======
+
+>>>>>>> hackaton/master
 
 class Header extends Component {
   state = {
