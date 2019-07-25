@@ -25,7 +25,7 @@ const WorkProfile = () => {
             <input type="text" className="form-control"/>
             <br />
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Experiencia #3</label>
-            <input type="text" className="form-control" ReadOnly/>
+            <input type="text" className="form-control" />
             <br/>
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Años de experiencia laboral</label>
             <input type="text" className="form-control"/>

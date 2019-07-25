@@ -40,7 +40,7 @@ const Congrats = () => {
       <div className="frameOne">
           <h1 style={style.h1} >¡Felicitaciones!</h1>
           <h2 style={style.h2}>Ya eres parte de la comunidad de Proyecto Mom’s</h2>
-            <img style={style.img} src={woman} alt="woman"></img>
+            <img className="congrats" style={style.img} src={woman} alt="woman"></img>
            
           <Link to="/profile"><Button style={style.button} title="¡OK! Ingresa a tu cuenta"/></Link>
          

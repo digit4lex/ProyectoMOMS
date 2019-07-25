@@ -2,12 +2,16 @@ html, body {
     background-color: #FAFAFA;
   };
 
+  .homepagecontainer {
+    background-image: url('../assets/Group.jpg');
+    background-size: 100%;
+  }
 
-  @media (min-width: 800px) {
-    html, body {
-      background-image: none;
-      background-size: 100vh;
-      background-color: #355E7E
+  @media (min-width: 900px) {
+    .homepagecontainer {
+    background-image: none;
     }
-  };
-
+    #root, html, body {
+      background-color: #FAFAFA
+    }
+}
