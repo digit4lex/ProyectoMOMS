@@ -45,9 +45,7 @@ const PersonalData = () => {
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Has hecho algún postgrado?</label> <br/>
             <div >
               <input type="radio" name="postgrado" className="hola" value="si"/>  <label className="grey-text">Si</label>
-
-              
-              <input type="radio" name="postgrado" style={{marginLeft: "60px"}} value="no"/>  <label className="grey-text">  No</label>
+              <input type="radio" name="postgrado" style={{marginLeft: "50px"}} value="no"/>  <label className="grey-text">No</label>
              </div>
              <br />           
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál?</label> <br/>

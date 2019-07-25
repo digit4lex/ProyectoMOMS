@@ -48,12 +48,7 @@ const WorkProfile = () => {
               </optgroup>
             </select>
             <br />           
-            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Has hecho algún postgrado?</label> <br/>
-            <div >
-              <input type="radio" name="postgrado" value="si"/>  <label className="grey-text">Si</label>
-              <input type="radio" name="postgrado" style={{marginLeft: "145px"}} value="no"/>  <label className="grey-text">No</label>
-             </div>
-             <br />           
+            
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Expectativa de salario</label> <br/>
               <input type="text" className="form-control"/>
               <br />            
