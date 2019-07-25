@@ -9,7 +9,6 @@ const History = () => {
             <MDBRow >
 
                 <MDBCol md="6">
-
                     <div className="col">
                         <div className="card">
                             <div className="card-body">
@@ -29,7 +28,7 @@ const History = () => {
                 </MDBCol>
             </MDBRow>
         </MDBContainer>
-        //         
+      
     );
 }
 
