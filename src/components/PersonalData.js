@@ -6,7 +6,7 @@ import '../styles/Register.css'
 const PersonalData = () => {
   
   return (
-    <MDBContainer >
+    <MDBContainer style={{ height:"160vh" }}>
       <MDBRow >
         <MDBCol   md="6">
           <form >

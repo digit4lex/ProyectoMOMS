@@ -3,10 +3,9 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Button from './Button'
 import '../styles/Register.css'
 
-
 const WorkProfile = () => {
   return (
-    <MDBContainer >
+    <MDBContainer style={{ height:"170vh" }} >
       <MDBRow >
         <MDBCol  md="6">
           <form >

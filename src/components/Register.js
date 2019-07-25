@@ -6,7 +6,7 @@ import Button from "./Button";
 const Register = () => {
 
   return (
-    <MDBContainer >
+    <MDBContainer style={{ height:"100vh" }} >
       <MDBRow >
         <MDBCol  md="6">
           <form >
