@@ -2,6 +2,7 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import '../styles/Register.css'
 import Button from "./Button";
+import {Link} from 'react-router-dom'
 
 const Register = () => {
 
@@ -10,6 +11,7 @@ const Register = () => {
       <MDBRow >
         <MDBCol  md="6">
           <form >
+          <Link to="/"><p className="back">Atrás</p></Link>
             <p className="h6 text-center-title mb-4">Si eres mamá profesional y buscas trabajo flexible, ¡no te lo pierdas! Inscríbete aquí.</p>
             <hr  />
             <p className="h7 text-center mb-4">Datos Personales</p>

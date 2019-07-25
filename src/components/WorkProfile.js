@@ -2,6 +2,7 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Button from './Button'
 import '../styles/Register.css'
+import {Link} from 'react-router-dom'
 
 const WorkProfile = () => {
   return (
@@ -9,6 +10,7 @@ const WorkProfile = () => {
       <MDBRow >
         <MDBCol  md="6">
           <form >
+          <Link to="/aboutme"><p className="back">Atrás</p></Link>
             <p className="h6 text-center-title mb-4">Queremos conocer tu experiencia y las habilidades que has adquirido trabajando.</p>
             <hr />
             <p className="h7 text-center mb-4">Perfil laboral</p>
