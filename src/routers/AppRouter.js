@@ -5,6 +5,7 @@ import HomePage from '../components/HomePage';
 import Register from '../components/Register';
 import PersonalData from '../components/PersonalData'
 import WorkProfile from '../components/WorkProfile'
+import Profile from '../components/Profile';
 import Header from '../components/Header';
 import Login from '../components/Login';
 import Congrats from '../components/Congrats';
@@ -23,6 +24,7 @@ const AppRouter = () => (
          <Route path="/congrats" component={Congrats} />
          <Route path="/aboutme" component={PersonalData} />
          <Route path="/workprofile" component={WorkProfile} />
+         <Route path="/profile" component={Profile}/>
          <Route path="/login" component={Login} />
          <Route component={NotFoundPage}/>
         </Switch>
