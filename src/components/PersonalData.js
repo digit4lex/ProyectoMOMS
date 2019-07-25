@@ -4,12 +4,12 @@ import Button from './Button'
 import '../styles/Register.css'
 
 const PersonalData = () => {
-  let style = { background: {backgroundColor: '#FAFAFA' }};
+  
   return (
-    <MDBContainer className="my-page-text" style={style.background}>
-      <MDBRow style={style.background}>
-        <MDBCol  style={style.background} md="6">
-          <form style={style.background}>
+    <MDBContainer >
+      <MDBRow >
+        <MDBCol   md="6">
+          <form >
             <p className="h6 text-center-title mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
             <hr />
             <p className="h7 text-center mb-4">Sobre ti</p>

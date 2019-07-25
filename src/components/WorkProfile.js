@@ -5,12 +5,11 @@ import '../styles/Register.css'
 
 
 const WorkProfile = () => {
-    let style = { background: {backgroundColor: '#FAFAFA'} };
   return (
-    <MDBContainer className="my-page-text" style={style}>
-      <MDBRow style={style.background}>
-        <MDBCol style={style.background} md="6">
-          <form style={style.background}>
+    <MDBContainer >
+      <MDBRow >
+        <MDBCol  md="6">
+          <form >
             <p className="h6 text-center-title mb-4">Queremos conocer tu experiencia y las habilidades que has adquirido trabajando.</p>
             <hr />
             <p className="h7 text-center mb-4">Perfil laboral</p>
@@ -34,7 +33,7 @@ const WorkProfile = () => {
               <input type="radio" name="desempleo" value="no"/><label className="grey-text">12 meses o más</label>
              </div>
              <br />        
-            <label style={style.background} htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Qué tipo de trabajo buscas?</label>
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Qué tipo de trabajo buscas?</label>
             <select id="defaultFormJobSearchEx" className="form-control">
               <optgroup>
                 <option value="1">Tiempo completo</option>

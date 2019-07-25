@@ -10,16 +10,16 @@ const FooterPage = () => {
 
   return (
     <footer style={{backgroundColor:"#355E7E"}}  className="footer">
-      <container style={{backgroundColor:"#355E7E"}}className="footercontainer">
+      <div style={{backgroundColor:"#355E7E"}}className="footercontainer">
         <p>Escríbenos a</p>
         <p style={{color:"#F1717F"}} >contacto@proyectomoms.com</p>
-        <p>O vista nuestras redes sociales</p>
-        <img src={instagram} style={{width: "25px", height: "25px", marginRight: "9px"}} alt="instagram"></img>
-        <img src={twitter} style={{width: "25px", height: "25px", margin: "9px"}} alt="twitter"></img>
-        <img src={youtube} style={{width: "25px", height: "25px", margin: "9px"}} alt="youtube"></img>
-        <img src={facebook} style={{width: "25px", height: "25px", margin: "9px"}} alt="facebook"></img>
+        <p>O visita nuestras redes sociales</p>
+        <a href="https://www.instagram.com/proyectomoms/"><img src={instagram}  style={{width: "25px", height: "25px", marginRight: "9px"}} alt="instagram"></img></a>
+        <a href="https://twitter.com/proyectoMOMS"><img src={twitter} style={{width: "25px", height: "25px", margin: "9px"}} alt="twitter"></img></a>
+        <a href="https://www.youtube.com/channel/UCuxA7DoIlM2wx9QhsrGTJYw"><img src={youtube} style={{width: "25px", height: "25px", margin: "9px"}} alt="youtube"></img></a>
+        <a href="https://www.facebook.com/proyectomoms/"><img src={facebook} href="https://www.facebook.com/ProyectoMoms-526667731199896/" style={{width: "25px", height: "25px", margin: "9px"}} alt="facebook"></img></a>
         <p>ProyectoMom's 2019</p>
-        </container>
+        </div>
     </footer>
   );
 }

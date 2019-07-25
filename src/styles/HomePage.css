@@ -1,12 +1,30 @@
 html, body {
-    background-image: url(../assets/Group.jpg);
-    background-size: 100%;
-  }
+    background-color: #E5E5E5;
+  };
+
 
   @media (min-width: 900px) {
     html, body {
-      background-image: none;
-      background-color: rgb(179, 171, 171);
+      background-image: url(../assets/Group.jpg);
+      background-size: 100vh;
     }
-  }
+  };
 
+  .my-page-text {
+    /*height: inherit;*/
+    padding: 8% 7% 3% 7%;
+    background-image: url(../assets/Group.jpg);
+    /*top: 55px;*/
+
+    /*To support older browsers*/
+    height: 200%;
+    width: 100%;
+
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+    background-size: 100%; 
+    color:#535151
+};

@@ -1,5 +1,6 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import Oportunities from './Oportunities'
 
 
 const Profile = () =>{
@@ -18,7 +19,7 @@ const Profile = () =>{
                         <h1 className="h7 text-center mb-4">Cuenta</h1>
             <div>
                 <div>
-                    <img src="https://www.lapi.com.mx/image.ashx?s=57067&im=97321&t=p"></img>
+                    <img src="https://www.lapi.com.mx/image.ashx?s=57067&im=97321&t=p" alt=""></img>
                     <p>Editar</p>
                     <h2>Carmen Zavala</h2>
                     <p>Psicóloga</p>
@@ -28,10 +29,12 @@ const Profile = () =>{
                     <p>Tipo de trabajo solicitado</p>
                     <p>Part time</p>
                 </div>
-                <div>
+                <div className="col">
                     <h1>Oportunidades laborales</h1>
                     <p>Ver historial de postulaciones</p>
+                    <Oportunities title="Postular"/>
                 </div>
+                
             </div>
         </MDBCol>
       </MDBRow>
