@@ -33,7 +33,7 @@ class Header extends Component {
           <MDBContainer>
             <MDBHamburgerToggler color="white" id="hamburger1" onClick={() => this.toggleSingleCollapse('collapse1')} />
 
-            <img className="logo" src={logo} alt="logo"></img>
+            <NavLink to="/"><img className="logo" src={logo} alt="logo"></img></NavLink>
 
             <MDBNavbarBrand style = {{ marginRight: "-1rem" }}>
               <NavLink to="/login"><img src={icon} alt="icon" className="icon" width="36px"></img></NavLink>
