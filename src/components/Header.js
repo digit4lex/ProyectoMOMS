@@ -34,7 +34,7 @@ class Header extends Component {
 
             <img className="logo" src={logo} alt="logo"></img>
 
-            <MDBNavbarBrand>
+            <MDBNavbarBrand style = {{ marginRight: "-1rem" }}>
               <NavLink to="/login"><img src={icon} alt="icon" className="icon" width="36px"></img></NavLink>
             </MDBNavbarBrand>
 

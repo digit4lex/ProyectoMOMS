@@ -4,13 +4,17 @@ a.nav-link {
 }
 
 .logo {
-    width: 81px;;
-    margin-left: 15%;
+    width: 81px;
+    margin-left: 15%
 }
 
 .navbar {
     box-shadow: none; 
     font-weight: 300;
+}
+
+.navbar-brand {
+    margin-right: -1rem;
 }
 
 @media (min-width: 900px) {
