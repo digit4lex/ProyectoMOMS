@@ -2,6 +2,7 @@ import React from 'react'
 import FrameLogin from './FrameLogin'
 import './../styles/HomePage.css'
 import { MDBContainer } from 'mdbreact'
+import Footer from './Footer'
 ///import HomeLogin from './HomeLogin'
 
 const HomePage = () => {
@@ -37,6 +38,7 @@ const HomePage = () => {
         </MDBContainer>
         <MDBContainer className="sectionLogin">   
             <FrameLogin/>
+            <Footer/>
         </MDBContainer>
     </div>
     )
