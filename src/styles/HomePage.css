@@ -3,28 +3,11 @@ html, body {
   };
 
 
-  @media (min-width: 900px) {
+  @media (min-width: 800px) {
     html, body {
-      background-image: url(../assets/Group.jpg);
+      background-image: none;
       background-size: 100vh;
+      background-color: #355E7E
     }
   };
 
-  .my-page-text {
-    /*height: inherit;*/
-    padding: 8% 7% 3% 7%;
-    background-image: url(../assets/Group.jpg);
-    /*top: 55px;*/
-
-    /*To support older browsers*/
-    height: 200%;
-    width: 100%;
-
-    /* Set the height to match that of the viewport. */
-    height: 100vh;
-
-    /* Set the width to match that of the viewport. */
-    width: 100vw;
-    background-size: 100%; 
-    color:#535151
-};

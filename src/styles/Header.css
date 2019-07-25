@@ -20,11 +20,13 @@ a.nav-link {
 @media (min-width: 900px) {
     .navbar {
       background-color: #355E7E;
+      margin-left: -10%;
+      margin-right: -7.86%;
     }
     .logo {
-        margin-left: 5%
+        margin-left: 25%;
     }
-  }
+}
 
 
   img.icon {
