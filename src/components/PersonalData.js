@@ -18,7 +18,7 @@ const PersonalData = () => {
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
               Biografía
             </label>
-            <textarea id="defaultFormRegisterBiographyEx" className="form-control" rows= "5"/>
+            <textarea id="defaultFormRegisterBiographyEx" className="form-control" placeholder="Para conocerte escribe una pequeña biografía que de cuenta de tu objetivo laboral, fortalezas y oportunidades de mejora" rows= "5"/>
             <br />
             <label htmlFor="defaultFormRegisterEmailEx" className="grey-text">¿Cuál es tu profesión?</label>
             <select id="defaultFormRegisterProfesionEx" className="form-control">
@@ -44,9 +44,10 @@ const PersonalData = () => {
             <br />           
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Has hecho algún postgrado?</label> <br/>
             <div >
-              <input type="radio" name="postgrado" value="si"/><label className="grey-text">Si</label>
-              <br/>
-              <input type="radio" name="postgrado" value="no"/><label className="grey-text">No</label>
+              <input type="radio" name="postgrado" className="hola" value="si"/>  <label className="grey-text">Si</label>
+
+              
+              <input type="radio" name="postgrado" style={{marginLeft: "60px"}} value="no"/>  <label className="grey-text">  No</label>
              </div>
              <br />           
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál?</label> <br/>

@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import './../styles/Button.css'
 import { withRouter } from 'react-router-dom';
 
@@ -7,9 +7,9 @@ class Button extends Component {
     super(props);
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick() {    
+  handleClick() {
     let { history } = this.props;
-    history.push({pathname: this.props.to});   
+    history.push({ pathname: this.props.to });
   }
   render() {
     return (

@@ -17,21 +17,24 @@ const WorkProfile = () => {
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
                 Agrega tu experiencia laboral
             </label>
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 1" readOnly/>
+            <br/>
+            <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Experiencia #1</label>
+            <input type="text" className="form-control"/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 2" readOnly/>
+            <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Experiencia #2</label>
+            <input type="text" className="form-control"/>
             <br />
-            <input type="text" name="inputname" value="experiencia" placeholder="Experiencia # 3" readOnly/>
+            <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Experiencia #3</label>
+            <input type="text" className="form-control" ReadOnly/>
             <br/>
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Años de experiencia laboral</label>
             <input type="text" className="form-control"/>
               <br />
             <br />    
-            <label htmlFor="defaultFormUnemploymentEx" className="grey-text">¿Cuánto llevas desempleada?</label> <br/>
+            <label htmlFor="defaultFormUnemploymentEx" className="grey-text">¿Cuántos meses llevas desempleada?</label> <br/>
             <div >
-              <input type="radio" name="desempleo" value="si"/><label className="grey-text">Menos de 12 meses</label>
-              <br/>
-              <input type="radio" name="desempleo" value="no"/><label className="grey-text">12 meses o más</label>
+              <input type="radio" name="desempleo" value="si"/>  <label className="grey-text">Menos de 12</label>
+              <input type="radio" name="desempleo" style={{marginLeft: "60px"}} value="no"/>  <label className="grey-text">12 o más</label>
              </div>
              <br />        
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Qué tipo de trabajo buscas?</label>
@@ -47,9 +50,8 @@ const WorkProfile = () => {
             <br />           
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Has hecho algún postgrado?</label> <br/>
             <div >
-              <input type="radio" name="postgrado" value="si"/><label className="grey-text">Si</label>
-              <br/>
-              <input type="radio" name="postgrado" value="no"/><label className="grey-text">No</label>
+              <input type="radio" name="postgrado" value="si"/>  <label className="grey-text">Si</label>
+              <input type="radio" name="postgrado" style={{marginLeft: "145px"}} value="no"/>  <label className="grey-text">No</label>
              </div>
              <br />           
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Expectativa de salario</label> <br/>
