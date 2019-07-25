@@ -9,7 +9,7 @@ class Button extends Component {
   }
   handleClick() {    
     let { history } = this.props;
-    history.push({pathname: this.props.to});    
+    history.push({pathname: this.props.to});   
   }
   render() {
     return (

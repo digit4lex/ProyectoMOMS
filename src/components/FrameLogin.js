@@ -15,7 +15,7 @@ const FrameLogin = () => {
         </div>
         <div className="frame">
           <h3 className="titulos">Estoy reclutando para un puesto o proyecto en nombre de una empresa</h3>
-          <Button style ={style.button} title="Inscribe tu Empresa"/>
+          <Button style ={style.button} to="/notfoundpage" title="Inscribe tu Empresa"/>
         </div>
       </div>
     //   

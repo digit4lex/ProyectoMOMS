@@ -5,13 +5,13 @@ import {Link} from 'react-router-dom'
 
 
 const Profile = () =>{
-    let style = {       nombre:{fontFamily: 'Montserra',
+   /*  let style = {       nombre:{fontFamily: 'Montserra',
                         fontStyle: 'normal',
                         fontWeight: 'normal',
                         fontSize: '22px',
                         lineHeight: '27px',
                         textColor: '#355E7E'},
-                    };
+                    }; */
     return(
         <MDBContainer >
         <MDBRow >
