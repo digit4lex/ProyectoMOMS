@@ -15,7 +15,7 @@ const WorkProfile = () => {
             <hr />
             <p className="h7 text-center mb-4">Perfil laboral</p>
             <label htmlFor="defaultFormRegisterNameEx" className="grey-text">
-                Agrega tu experiencia laboral
+                Agrega tu experiencia laboral más relevante
             </label>
             <br/>
             <label htmlFor="defaultFormWorkExperiencieEx" className="grey-text">Experiencia #1</label>
