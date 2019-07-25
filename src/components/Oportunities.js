@@ -24,7 +24,7 @@ class Oportunities extends Component {
     </div>
     </div>
     <p className="card-card">Requisitos</p>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">3 años de experiencia en el área. Inglés excluyente. Horario 100% flexible</p>
     <Link to="/AllOk"><Button style={this.props.style} title="Postular"/></Link>
   </div>
 </div>
