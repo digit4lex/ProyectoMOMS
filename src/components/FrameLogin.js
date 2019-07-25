@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import Button from './Button';
 import './../styles/FrameLogin.css';
 import { Link } from 'react-router-dom'

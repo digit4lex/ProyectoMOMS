@@ -27,7 +27,7 @@ const WorkProfile = () => {
             <input type="text" className="form-control"/>
               <br />
             <br />    
-            <label htmlFor="defaultFormUnemploymentEx" className="grey-text">¿Cuanto llevas desempleada?</label> <br/>
+            <label htmlFor="defaultFormUnemploymentEx" className="grey-text">¿Cuánto llevas desempleada?</label> <br/>
             <div >
               <input type="radio" name="desempleo" value="si"/><label className="grey-text">Menos de 12 meses</label>
               <br/>
@@ -55,10 +55,10 @@ const WorkProfile = () => {
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Expectativa de salario</label> <br/>
               <input type="text" className="form-control"/>
               <br />            
-            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Lik de tu CV</label> <br/>
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Link de tu CV</label> <br/>
               <input type="text" className="form-control"/>
               <br />            
-            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Lik de tu LinkedIn</label> <br/>
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Link de tu LinkedIn</label> <br/>
               <input type="text" className="form-control"/>
              
 

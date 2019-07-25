@@ -8,7 +8,7 @@ const PersonalData = () => {
   return (
     <MDBContainer className="my-page-text" style={style.background}>
       <MDBRow style={style.background}>
-        <MDBCol style={style.background} md="6">
+        <MDBCol  style={style.background} md="6">
           <form>
             <p className="h6 text-center-title mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
             <hr />
@@ -23,18 +23,18 @@ const PersonalData = () => {
               <optgroup>
                 <option value="1">Arquitectura</option>
                 <option value="2">Ingeniería</option>
-                <option value="3">Sicología</option>
+                <option value="3">Psicología</option>
                 <option value="4">Derecho</option>
-                <option value="5">Administracion</option>
+                <option value="5">Administración</option>
               </optgroup>
             </select>
             <br />           
-            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">Tienes algun área de interés</label>
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Tienes algun área de interés?</label>
             <select id="defaultFormRegisterProfesionEx" className="form-control">
               <optgroup>
-                <option value="1">Informatíca</option>
+                <option value="1">Informática</option>
                 <option value="2">Diseño y arte</option>
-                <option value="3">Tecnologa</option>
+                <option value="3">Tecnología</option>
                 <option value="4">Salud</option>
                 <option value="5">Comunicación</option>
               </optgroup>
@@ -50,7 +50,7 @@ const PersonalData = () => {
             <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál?</label> <br/>
               <input type="text" className="form-control"/>
               <br />           
-            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál es tu nivel de ingles?</label>
+            <label htmlFor="defaultFormRegisterPasswordEx" className="grey-text">¿Cuál es tu nivel de inglés?</label>
             <select id="defaultFormRegisterEnglishEx" className="form-control">
               <optgroup>
                 <option value="1">Básico</option>
