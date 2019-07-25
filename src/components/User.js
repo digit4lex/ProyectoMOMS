@@ -12,26 +12,25 @@ const User = () =>{
         <MDBContainer>
             <MDBRow >
                 <MDBCol>
-                    <div className="col">
-                        <div className="card">
-                        <Link to="/edit"><p className="back">Editar</p></Link>
+                    
+                        <div className="card" style={{ boxShadow: "none"}}>
+                        <Link to="/edit"><p className="back" align="rigth">Editar</p></Link>
                             <div className="card-body">
                                 <div className="row">
                                     <div className="Col">
                                     <img style={style.img} alt="" src="https://www.lapi.com.mx/image.ashx?s=57067&im=97321&t=p"></img>
                                     </div>
                                     <div className="Col">
-                                    <h2 >Carmen Zavala</h2>
-                                    <p >Psicóloga</p>
+                                    <h2 className="card-title" >Carmen Zavala</h2>
+                                    <p className="card-text">Psicóloga</p>
                                     </div>
                                     <div>
-                                    <p >Información adicional</p>
-                                <p>Magíster en Recursos Humanos, inglés intermedio</p>
-                                <p>Tipo de trabajo solicitado</p>
-                                <p>Part time</p>
+                                    <p className="card-card">Información adicional</p>
+                                <p className="card-date">Magíster en Recursos Humanos, inglés intermedio</p>
+                                <p className="card-card">Tipo de trabajo solicitado</p>
+                                <p className="card-date">Part time</p>
                                 </div>
                             </div>
-                        </div>
                     </div>
                     </div>
                 </MDBCol>
