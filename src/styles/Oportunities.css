@@ -7,7 +7,7 @@
   }
 .card{
     width: 313px;
-    height: 308px; 
+    height: auto; 
     /* padding: 36px 31px 29px 32px; */
 }
 .card-title{
@@ -43,4 +43,18 @@
 }
 .porcent,.match{
     color: white;
+}
+
+.state{
+    font-size: 14px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 8px;
+}
+.back{
+    color: #F1717F;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+
 }

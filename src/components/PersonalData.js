@@ -2,14 +2,16 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Button from './Button'
 import '../styles/Register.css'
+import {Link} from 'react-router-dom'
 
 const PersonalData = () => {
   
   return (
-    <MDBContainer >
+    <MDBContainer style={{ height:"160vh" }}>
       <MDBRow >
         <MDBCol   md="6">
           <form >
+          <Link to="/register"><p className="back">Atrás</p></Link>
             <p className="h6 text-center-title mb-4">Cuéntanos sobre ti, esta información es fundamental para hacer match con las empresas.</p>
             <hr />
             <p className="h7 text-center mb-4">Sobre ti</p>

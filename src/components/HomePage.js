@@ -32,7 +32,7 @@ const HomePage = () => {
     return (
 
     <div>
-        <MDBContainer  style={{backgroundImage:`url(${Background})`, backgroundSize:"100%"}}>
+        <MDBContainer className="homepagecontainer" style={{backgroundImage:`url(${Background})`, backgroundSize:"100%"}}>
             <br/>
             <h3 style={style.h3}> Más de mil mujeres y compañías nos avalan </h3>
             <h1 style={style.h2}>Conectamos el talento femenino con las mejores empresas que tienen ofertas flexibles para ellas</h1>
