@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Register = () => {
 
-  let style = { background: {backgroundColor: '#FAFAFA' }};
+  let style = { background: {backgroundColor: '#FAFAFA'} };
 
   return (
     <MDBContainer className="my-page-text" style={style.background}>

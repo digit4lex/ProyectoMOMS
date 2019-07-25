@@ -23,8 +23,6 @@ a.nav-link {
   }
 
 
-.material-icons {
-    font-size: 36px;
-    color: white;
-    margin-left: 33px;
-}
+  img.icon {
+      margin-left: 1.5rem;
+  }

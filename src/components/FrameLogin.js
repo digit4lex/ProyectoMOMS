@@ -3,23 +3,23 @@ import Button from './Button';
 import './../styles/FrameLogin.css';
 import { Link } from 'react-router-dom'
 
-class FrameLogin extends Component {
+const FrameLogin = () => {
 
-  render() {
+  let style = { button: {width:"90%"} }
+
     return (
       <div>
         <div className="frame">
           <h3 className="titulos">Soy una mujer en busca de mi próxima oportunidad laboral</h3>
-          <Link to="/register"><Button title="Ingresa tus datos"/></Link>
+          <Link to="/register"><Button style={style.button} title="Ingresa tus datos"/></Link>
         </div>
         <div className="frame">
           <h3 className="titulos">Estoy reclutando para un puesto o proyecto en nombre de una empresa</h3>
-          <Button title="Inscribe tu Empresa"/>
+          <Button style ={style.button} title="Inscribe tu Empresa"/>
         </div>
       </div>
     //   
     );
-  }
 };
 
 export default FrameLogin;

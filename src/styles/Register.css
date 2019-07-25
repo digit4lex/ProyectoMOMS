@@ -9,7 +9,7 @@
 
 .my-page-text {
     /*height: inherit;*/
-    padding: 8% 5% 5% 3%;
+    padding: 8% 7% 3% 7%;
     /*top: 55px;*/
 
     /*To support older browsers*/
@@ -35,3 +35,7 @@
     padding: -1% 5% 15% 3%;
     color:#535151
 }
+
+.grey-text{
+    color: #535151;
+  }
