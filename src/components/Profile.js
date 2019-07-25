@@ -1,6 +1,7 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Oportunities from './Oportunities'
+import {Link} from 'react-router-dom'
 
 
 const Profile = () =>{
@@ -16,7 +17,7 @@ const Profile = () =>{
         <MDBContainer className="my-page-text" style={style.background}>
         <MDBRow style={style.background}>
         <MDBCol  style={style.background} md="6">
-                        <h1 className="h7 text-center mb-4">Cuenta</h1>
+                        <h1 className="h7 text-center mb-4">Perfil</h1>
             <div>
                 <div>
                     <img src="https://www.lapi.com.mx/image.ashx?s=57067&im=97321&t=p" alt=""></img>
@@ -30,9 +31,9 @@ const Profile = () =>{
                     <p>Part time</p>
                 </div>
                 <div className="col">
-                    <h1>Oportunidades laborales</h1>
-                    <p>Ver historial de postulaciones</p>
-                    <Oportunities title="Postular"/>
+                    <p className="h7 text-center mb-4">Oportunidades laborales</p>
+                    <p><Link style={{ color: "#F1717F" }} to="/historial">Ver historial de postulaciones</Link></p>
+                    <Oportunities/>
                 </div>
                 
             </div>
