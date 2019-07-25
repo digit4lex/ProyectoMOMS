@@ -7,7 +7,6 @@ import './../styles/Login.css'
 
 const Login = () => {
     let style = {
-        background: { backgroundColor: '#FAFAFA' }, hr: { marginTop: "4rem" },
         button: {
             marginTop: "20px"
         },
@@ -18,9 +17,9 @@ const Login = () => {
         },
     }
     return (
-        <MDBContainer className="my-page-text" style={style.background}>
-            <MDBRow style={style.background}>
-                <MDBCol style={style.background} md="6">
+        <MDBContainer style={{ height: "80vh", marginTop:"100px" }} >
+            <MDBRow >
+                <MDBCol  md="6">
                     <Link to="/"><button type="button" style={{ fontSize: "2.5rem" }} className="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button></Link>

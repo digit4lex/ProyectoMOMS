@@ -7,24 +7,6 @@
     padding: 2% 5% 1% 3%;
 }
 
-.my-page-text {
-    /*height: inherit;*/
-    padding: 8% 7% 3% 7%;
-    /*top: 55px;*/
-
-    /*To support older browsers*/
-    height: 200%;
-    width: 100%;
-
-    /* Set the height to match that of the viewport. */
-    height: 100vh;
-
-    /* Set the width to match that of the viewport. */
-    width: 100vw;
-    background-size: 100%; 
-    color:#535151
-}
-
 .text-center {
     font-family: Playfair Display;
     font-size: 26px;
