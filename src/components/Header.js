@@ -7,7 +7,6 @@ import { NavLink } from 'react-router-dom'
 import logo from '../logo.png'
 import icon from '../assets/icon.png'
 import '../styles/Header.css'
-import Background from '../assets/Group.jpg'
 
 class Header extends Component {
   state = {
@@ -33,7 +32,7 @@ class Header extends Component {
           <MDBContainer>
             <MDBHamburgerToggler color="white" id="hamburger1" onClick={() => this.toggleSingleCollapse('collapse1')} />
 
-            <img className="logo" src={logo} alt="logo"></img>
+            <NavLink to="/"><img className="logo" src={logo} alt="logo"></img></NavLink>
 
             <MDBNavbarBrand style = {{ marginRight: "-1rem" }}>
               <NavLink to="/login"><img src={icon} alt="icon" className="icon" width="36px"></img></NavLink>
