@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+
+.grey-text.grey-text{
+  color: #535151 !important;
+}
