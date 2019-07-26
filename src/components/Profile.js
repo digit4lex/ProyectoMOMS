@@ -6,6 +6,8 @@ import User from './User';
 
 
 const Profile = () =>{
+
+    let style = { p: { textAlign: "center"} }
    
     return(
         <MDBContainer >
@@ -15,7 +17,7 @@ const Profile = () =>{
             <div className="col">
                     <User/>
                     <p className="h7 text-center mb-4">Oportunidades laborales</p>
-                    <p><Link style={{ color: "#F1717F" }} to="/history">Ver historial de postulaciones</Link></p>
+                    <p style={style.p}><Link style={{ color: "#F1717F" }} to="/history">Ver historial de postulaciones</Link></p>
                     <Oportunities/>
                     
                 </div>

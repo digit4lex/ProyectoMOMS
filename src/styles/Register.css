@@ -27,10 +27,6 @@ textarea.form-control::placeholder {
     color:#535151
 }
 
-.grey-text{
-    color: red;
-  }
-
 
   @media (min-width: 900px) {
     form {

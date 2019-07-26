@@ -11,7 +11,7 @@ const AllOk= () => {
             <MDBRow >
                 <MDBCol md="6">
                 <div className="col">
-                <div className="card">
+                <div className="card allok">
             <div className="card-body"> 
              <div className="Col">
              <h4 className="h7 text-center mb-4">Todo Listo</h4>

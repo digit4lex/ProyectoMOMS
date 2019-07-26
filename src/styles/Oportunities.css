@@ -16,6 +16,21 @@
     margin-left:-16%;
     margin-right: -15.5%
 }
+
+@media (min-width: 900px) {
+    .card {
+      width: 60%;
+      margin-left: 20%
+    }
+}
+
+@media (min-width: 900px) {
+    .allok {
+      width: 100%;
+      margin-left: 55%
+    }
+}
+
 .card-title{
     font-size: 22px;
     margin-bottom: 0;
@@ -70,4 +85,8 @@
 
 .back-two {
     text-align: right;
+}
+
+.card {
+    margin-bottom: 25px;
 }
