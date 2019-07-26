@@ -35,7 +35,7 @@ const NotFoundPage = () => {
           },
           img:{
               height:"185px",
-              width:"375px",
+              width:"360px",
           },
           button: {
             width:"270px",

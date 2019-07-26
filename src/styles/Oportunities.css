@@ -5,11 +5,16 @@
     border-radius: 50%;
     display: inline-block;
   }
-.card{
-    width: 313px;
-    height: auto; 
+  .card-two {
+    position: none;
+    flex-direction: none;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
     margin-bottom: 25px;
-    /* padding: 36px 31px 29px 32px; */
+    margin-left:-16%;
+    margin-right: -15.5%
 }
 .card-title{
     font-size: 22px;
@@ -18,7 +23,11 @@
     height: auto;
 }
 
-.card-text .card-card{
+.card-text-two {
+    margin-left: 16px;
+}
+
+.card-text, .card-text-two .card-card{
     font-size: 16px;
     line-height: 20px;
 }

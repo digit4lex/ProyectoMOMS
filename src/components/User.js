@@ -13,7 +13,7 @@ const User = () =>{
             <MDBRow >
                 <MDBCol>
                     
-                        <div className="card" style={{ boxShadow: "none"}}>
+                        <div className="card-two" >
                         <Link to="/edit"><p className="back-two" align="rigth">Editar</p></Link>
                             <div className="card-body">
                                 <div className="row">
@@ -22,7 +22,7 @@ const User = () =>{
                                     </div>
                                     <div className="Col">
                                     <h2 className="card-title" >Carmen Zavala</h2>
-                                    <p className="card-text">Psicóloga</p>
+                                    <p className="card-text-two">Psicóloga</p>
                                     </div>
                                     <div>
                                     <p className="card-card">Información adicional</p>
