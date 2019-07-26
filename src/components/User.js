@@ -20,15 +20,15 @@ const User = () =>{
                                     <div className="Col">
                                     <img style={style.img} alt="" src="https://www.lapi.com.mx/image.ashx?s=57067&im=97321&t=p"></img>
                                     </div>
-                                    <div className="Col">
+                                    <div className="Col cardtextito">
                                     <h2 className="card-title" >Carmen Zavala</h2>
                                     <p className="card-text-two">Psicóloga</p>
                                     </div>
                                     <div>
                                     <p className="card-card">Información adicional</p>
-                                <p className="card-date-two">Magíster en Recursos Humanos, inglés intermedio</p>
-                                <p className="card-card">Tipo de trabajo solicitado</p>
-                                <p className="card-date-two">Part time</p>
+                                    <p className="card-date-two">Magíster en Recursos Humanos, inglés intermedio</p>
+                                    <p className="card-card">Tipo de trabajo solicitado</p>
+                                    <p className="card-date-two">Part time</p>
                                 </div>
                             </div>
                     </div>

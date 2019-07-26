@@ -13,6 +13,7 @@ const Profile = () =>{
         <MDBContainer >
         <MDBRow >
         <MDBCol>
+            <br/>
             <h1 className="h7 text-center mb-4">Perfil</h1>
             <div className="col">
                     <User/>
